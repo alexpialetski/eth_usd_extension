@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Costs (with commission)</h3>
+      <div class="input-container bold">
+        <label for="costs-usd">USD</label> <input id="costs-usd" value="0" />
+      </div>
+      <h3>Wallet</h3>
+      <div class="input-container bold">
+        <label for="wallet-eth">ETH</label> <input id="wallet-eth" value="0" />
+      </div>
+      <h3>Current</h3>
+      <div class="input-container">
+        <label for="current-eth">ETH</label>
+        <input id="current-eth" value="0" disabled />
+      </div>
+      <div class="input-container">
+        <label for="current-low">LOW</label>
+        <input id="current-low" value="0" disabled />
+      </div>
+      <div class="input-container">
+        <label for="current-high">HIGH</label>
+        <input id="current-high" value="0" disabled />
+      </div>
+      <h3>Income</h3>
+      <div class="input-container">
+        <label for="income-usd">USD</label>
+        <input id="income-usd" value="0" disabled />
+      </div>
+      <div class="input-container">
+        <label for="income-p">%</label>
+        <input id="income-p" value="0" disabled />
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
